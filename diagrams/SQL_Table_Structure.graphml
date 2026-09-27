@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns"
+   xmlns:java="http://www.yworks.com/xml/yfiles-common/1.0/java"
+   xmlns:sys="http://www.yworks.com/xml/yfiles-common/markup/primitives/2.0"
+   xmlns:x="http://www.yworks.com/xml/yfiles-common/markup/2.0"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xmlns:y="http://www.yworks.com/xml/graphml"
+   xmlns:yed="http://www.yworks.com/xml/yed/3"
+   xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/xml/schema/graphml/1.1/ygraphml.xsd">
+  <key attr.name="Description" attr.type="string" for="graph" id="d0"/>
+  <key for="port" id="d1" yfiles.type="portgraphics"/>
+  <key for="port" id="d2" yfiles.type="portgeometry"/>
+  <key for="port" id="d3" yfiles.type="portuserdata"/>
+  <key attr.name="url" attr.type="string" for="node" id="d4"/>
+  <key attr.name="description" attr.type="string" for="node" id="d5"/>
+  <key for="node" id="d6" yfiles.type="nodegraphics"/>
+  <key for="graphml" id="d7" yfiles.type="resources"/>
+  <key attr.name="url" attr.type="string" for="edge" id="d8"/>
+  <key attr.name="description" attr.type="string" for="edge" id="d9"/>
+  <key for="edge" id="d10" yfiles.type="edgegraphics"/>
+  <graph edgedefault="directed" id="G">
+    <node id="n0">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="55" width="600" x="20" y="0"/>
+          <y:Fill color="#FDF1D6" transparent="false"/>
+          <y:BorderStyle color="#E8C15A" type="line" width="1.5"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="16" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true">Database Schema (Table Structure)</y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n1">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="42" width="280" x="20" y="85"/>
+          <y:Fill color="#8FD19E" transparent="false"/>
+          <y:BorderStyle color="#4C9F4C" type="line" width="1.5"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true">students</y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n2">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="154" width="280" x="20" y="127"/>
+          <y:Fill color="#FFFFFF" transparent="false"/>
+          <y:BorderStyle color="#4C9F4C" type="line" width="1.5"/>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true">PK  student_id&#10;    name&#10;    roll_no&#10;    branch&#10;    cgpa</y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n3">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="42" width="280" x="320" y="85"/>
+          <y:Fill color="#F5B96B" transparent="false"/>
+          <y:BorderStyle color="#D97F1E" type="line" width="1.5"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true">companies</y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n4">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="154" width="280" x="320" y="127"/>
+          <y:Fill color="#FFFFFF" transparent="false"/>
+          <y:BorderStyle color="#D97F1E" type="line" width="1.5"/>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true">PK  company_id&#10;    company_name&#10;    location&#10;    job_role&#10;    package</y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n5">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="42" width="280" x="20" y="300"/>
+          <y:Fill color="#7EC3EE" transparent="false"/>
+          <y:BorderStyle color="#2E7FB8" type="line" width="1.5"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true">drives</y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n6">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="206" width="280" x="20" y="342"/>
+          <y:Fill color="#FFFFFF" transparent="false"/>
+          <y:BorderStyle color="#2E7FB8" type="line" width="1.5"/>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true">PK  drive_id&#10;FK  company_id&#10;    job_role&#10;    package&#10;    eligibility_cgpa&#10;    eligibility_branch&#10;    drive_date</y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n7">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="42" width="280" x="320" y="300"/>
+          <y:Fill color="#F48FB1" transparent="false"/>
+          <y:BorderStyle color="#C2185B" type="line" width="1.5"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true">applications</y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n8">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="154" width="280" x="320" y="342"/>
+          <y:Fill color="#FFFFFF" transparent="false"/>
+          <y:BorderStyle color="#C2185B" type="line" width="1.5"/>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true">PK  application_id&#10;FK  student_id&#10;FK  drive_id&#10;    application_date&#10;    status</y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n9">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="42" width="280" x="170" y="560"/>
+          <y:Fill color="#C9A6F0" transparent="false"/>
+          <y:BorderStyle color="#7B3FBF" type="line" width="1.5"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true">placements</y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n10">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="180" width="280" x="170" y="602"/>
+          <y:Fill color="#FFFFFF" transparent="false"/>
+          <y:BorderStyle color="#7B3FBF" type="line" width="1.5"/>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" horizontalTextPosition="center" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true">PK  placement_id&#10;FK  student_id&#10;FK  company_id&#10;    package&#10;    joining_date&#10;    status</y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+  </graph>
+</graphml>
